@@ -21,8 +21,7 @@ function App() {
       <ul>
           <li>Menu</li>
           <li>About</li>
-          <li></li>
-
+          <li>Contact Us</li>
       </ul>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
