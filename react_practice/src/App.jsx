@@ -20,8 +20,10 @@ function App() {
       <h2>Hello Zaid, Welcome to React! </h2>
       <ul>
           <li>Menu</li>
+          <li>Career</li>
           <li>About</li>
           <li>Contact Us</li>
+
       </ul>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
