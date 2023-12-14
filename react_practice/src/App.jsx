@@ -22,6 +22,7 @@ function App() {
           <li>Menu</li>
           <li>Career</li>
           <li>About</li>
+          <li>Portfolio</li>
           <li>Contact Us</li>
 
       </ul>
