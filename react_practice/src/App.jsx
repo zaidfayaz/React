@@ -24,8 +24,12 @@ function App() {
           <li>About</li>
           <li>Portfolio</li>
           <li>Contact Us</li>
-
       </ul>
+
+      <div>
+        <h3>This is a great start for the react!</h3>
+        
+      </div>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
