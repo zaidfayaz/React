@@ -28,6 +28,7 @@ function App() {
 
       <div>
         <h3>This is a great start for the react!</h3>
+        <p>Best of luck</p>
         
       </div>
       <div className="card">
