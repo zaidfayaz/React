@@ -5,6 +5,7 @@ import './App.css'
 import Greet from './components/Functional_Component'
 import Welcome from './components/Class_Component'
 import Jsx from './components/JSX_Format'
+import Message from './components/State'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Welcome name ="Suhaib" heroName = "Batman"></Welcome>
         <Welcome name ="Faizan" heroName = "Spiderman"></Welcome>
         <Jsx></Jsx>
+        <Message></Message>
       </div>
    
     </>

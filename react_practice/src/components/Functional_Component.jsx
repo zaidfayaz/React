@@ -17,7 +17,7 @@ const Greet = (props) => {
     console.log(props)
     return (
         <div>
-            <h1>Hello {props.name}! I am a functional component, a.k.a {props.heroName}</h1>
+            <h1>Hello {props.name}! I am a state component, a.k.a {props.heroName}</h1>
             {props.children}
         </div>
     )

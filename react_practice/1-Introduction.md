@@ -94,6 +94,20 @@ JSX Differences : -
 
  Props (properties) : are immutable means there value cant be changed 
 
+ props vs state
+ 1 - props gets passed to the component 
+   - state is manage within the component
+2  - analogy for this will be function parameters
+   - variables declared in function body
+3  - props are immutable (because the parent owns the props & cant be changed by the children.)
+   - state can be changes (because its managed within the component and hence the compoent has the full control to change the state)
+4  - props are accessed by 
+   props in -> Functional component
+   this.props in -> Class component
+   - states are accessed by
+   useState Hook in -> Functional component
+   this.state in -> Class Component
+
 
 
 
