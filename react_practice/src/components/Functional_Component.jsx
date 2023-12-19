@@ -13,7 +13,7 @@ import React from 'react'
 // export default Greet
 
 //------------------2nd way-------------------------------
-const Greet = () => <h1>Hello Zaid Fayaz! We welcome you in the React Development </h1>
+const Greet = () => <h1>Hello Zaid Fayaz! I am a functional component</h1>
 
  export default Greet
 
