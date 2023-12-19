@@ -92,6 +92,8 @@ JSX Differences : -
  . onclick -> onClick
  . tabindex -> tabIndex
 
+ Props (properties) : are immutable means there value cant be changed 
+
 
 
 

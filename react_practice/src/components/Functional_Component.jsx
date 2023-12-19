@@ -13,8 +13,16 @@ import React from 'react'
 // export default Greet
 
 //------------------2nd way-------------------------------
-const Greet = () => <h1>Hello Zaid Fayaz! I am a functional component</h1>
+const Greet = (props) => {
+    console.log(props)
+    return (
+        <div>
+            <h1>Hello {props.name}! I am a functional component, a.k.a {props.heroName}</h1>
+            {props.children}
+        </div>
+    )
+}
 
- export default Greet
+export default Greet
 
 
