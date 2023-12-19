@@ -69,5 +69,30 @@ JSX is not necessity to write react applications
 JSX makes your react code simpler and elegant
 JSX ultimately transpiles to pure JS which is understood by the browsers
 
+with jsx example
+const Hello =() =>{
+    return(
+        <div>
+            <h1> hello </h1>
+        </div>
+    )
+}
+export default Hello
+
+without JSX
+const Hello = () =>{
+    return React.createElement('div'(string which specifies the html tag to be rendered), null (pass any optional porperties), React createElement('h1, null,
+     (Children for the html element i.e children for the div tag)
+}
+
+JSX Differences : - 
+- class replaced -> className
+- for replaced -> htmlFor
+- camelCase Porperty naming convention
+ . onclick -> onClick
+ . tabindex -> tabIndex
+
+
+
 
 >
