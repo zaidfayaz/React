@@ -25,4 +25,30 @@ const Greet = (props) => {
 
 export default Greet
 
+//------------------Destructuring-------------------------------
+// const Greet = ({name, heroName}) => {
+//     return (
+//         <div>
+//             <h1>Hello {name}! I am a state component, a.k.a {heroName}</h1>
+//             {props.children}
+//         </div>
+//     )
+// }
+
+// export default Greet
+
+//------------------Destructuring 2nd way-------------------------------
+
+// const Greet = (props) => {
+//     const{name, heroName} = props
+//     return (
+//         <div>
+//             <h1>Hello {name}! I am a state component, a.k.a {heroName}</h1>
+//             {props.children}
+//         </div>
+//     )
+// }
+
+// export default Greet
+
 
