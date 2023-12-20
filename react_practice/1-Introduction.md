@@ -108,6 +108,10 @@ JSX Differences : -
    useState Hook in -> Functional component
    this.state in -> Class Component
 
+-setState : Always make use of setSate and never modify the state directly
+  -code has to be executed after the state has been updated? Place that code in the call back function which is the second argument to the setState method (first argument is object. ex in counter component)
+  - When you have to update the state based on the previous state value, pass in a function as an argument instead of the regular object.
+
 
 
 
