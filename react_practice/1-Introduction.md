@@ -69,7 +69,7 @@ JSX is not necessity to write react applications
 JSX makes your react code simpler and elegant
 JSX ultimately transpiles to pure JS which is understood by the browsers
 
-with jsx example
+                  with jsx example
 const Hello =() =>{
     return(
         <div>
@@ -79,22 +79,22 @@ const Hello =() =>{
 }
 export default Hello
 
-without JSX
+                without JSX
 const Hello = () =>{
     return React.createElement('div'(string which specifies the html tag to be rendered), null (pass any optional porperties), React createElement('h1, null,
      (Children for the html element i.e children for the div tag)
 }
 
-JSX Differences : - 
+                JSX Differences : - 
 - class replaced -> className
 - for replaced -> htmlFor
 - camelCase Porperty naming convention
  . onclick -> onClick
  . tabindex -> tabIndex
 
- Props (properties) : are immutable means there value cant be changed 
+        Props (properties) : are immutable means there value cant be changed 
 
- props vs state
+                        props vs state
  1 - props gets passed to the component 
    - state is manage within the component
 2  - analogy for this will be function parameters
@@ -108,12 +108,13 @@ JSX Differences : -
    useState Hook in -> Functional component
    this.state in -> Class Component
 
--setState : Always make use of setSate and never modify the state directly
+                     -setState :
+ Always make use of setSate and never modify the state directly
   -code has to be executed after the state has been updated? Place that code in the call back function which is the second argument to the setState method (first argument is object. ex in counter component)
   - When you have to update the state based on the previous state value, pass in a function as an argument instead of the regular object.
 
 
-// explaining  counter component (constructor)
+            // explaining  counter component (constructor)
   In React, the constructor method is used for initializing state, binding event handlers, or performing any other setup required for the component. However, starting from React 16.8, you can use the useState hook to manage state in functional components without using a constructor.
 
 Here's what the code snippet does:
