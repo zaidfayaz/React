@@ -10,11 +10,14 @@ import Counter from './components/Counter'
 import FunctionClick from './components/Function_Click'
 import ClassClick from './components/Class_Click'
 import EventBind from './components/Event_Bind'
+import parentComponent from './components/parent_Component'
 
 function App() {
   return (
     <>
       <div className='App'> 
+      {/*child to parent communication*/}
+      <parentComponent></parentComponent>
       {/*Binding Event Handlers*/}
       <EventBind></EventBind>
       {/*Event Handlers*/}
