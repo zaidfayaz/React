@@ -7,11 +7,16 @@ import Welcome from './components/Class_Component'
 import Jsx from './components/JSX_Format'
 import Message from './components/States'
 import Counter from './components/Counter'
+import FunctionClick from './components/Function_Click'
+import ClassClick from './components/Class_Click'
 
 function App() {
   return (
     <>
       <div className='App'> 
+      {/*Event Handlers*/}
+      <FunctionClick></FunctionClick>
+       <ClassClick></ClassClick>
       <Counter></Counter>
       {/*props for functional component*/}
         <Greet name ="Zaid" heroName = "Superman"><p>This is a children props</p></Greet>
