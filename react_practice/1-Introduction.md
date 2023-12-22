@@ -124,6 +124,10 @@ super(props) calls the constructor of the parent class (React.Component) and pas
 this.state = { count: 0 } initializes the component's state with a property count set to 0. Later, you can access and update this state using this.state.count and this.setState() method respectively within the component.
 This state is used to store and manage data within the component.
 
+           Click Handler/Event Binding
+this keyword is undefined in the event handler and that is the reason event binding is necessary in class components
+    
+
 
 
 

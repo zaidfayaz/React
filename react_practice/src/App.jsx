@@ -9,14 +9,17 @@ import Message from './components/States'
 import Counter from './components/Counter'
 import FunctionClick from './components/Function_Click'
 import ClassClick from './components/Class_Click'
+import EventBind from './components/Event_Bind'
 
 function App() {
   return (
     <>
       <div className='App'> 
+      {/*Binding Event Handlers*/}
+      <EventBind></EventBind>
       {/*Event Handlers*/}
       <FunctionClick></FunctionClick>
-       <ClassClick></ClassClick>
+     <ClassClick></ClassClick>
       <Counter></Counter>
       {/*props for functional component*/}
         <Greet name ="Zaid" heroName = "Superman"><p>This is a children props</p></Greet>
