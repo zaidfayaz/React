@@ -131,7 +131,7 @@ this keyword is undefined in the event handler and that is the reason event bind
 1) if/else
 2) Element variables
 3) Ternary conditional operator
-4) Short circuit operator
+4) Short circuit operator (if its true returns the statement otherise will not return anytthing .its used in specific cases only ex in  conditional rednedering componenet)
     
 
 

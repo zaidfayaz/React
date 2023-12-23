@@ -11,11 +11,14 @@ import FunctionClick from './components/Function_Click'
 import ClassClick from './components/Class_Click'
 import EventBind from './components/Event_Bind'
 import ParentComponent from './components/ParentComponent'
+import ConditionalRendering from './components/ConditionalRendering'
 
 function App() {
   return (
     <>
       <div className='App'> 
+      {/*conditional rendering*/}
+      <ConditionalRendering></ConditionalRendering>
       {/*child to parent communication*/}
       <ParentComponent></ParentComponent>
       {/*Binding Event Handlers*/}
