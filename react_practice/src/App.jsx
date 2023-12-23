@@ -12,21 +12,29 @@ import ClassClick from './components/Class_Click'
 import EventBind from './components/Event_Bind'
 import ParentComponent from './components/ParentComponent'
 import ConditionalRendering from './components/ConditionalRendering'
+import ListRendering from './components/ListRendering'
 
 function App() {
   return (
     <>
       <div className='App'> 
+      {/*List rendering*/}
+      <ListRendering></ListRendering>
+
       {/*conditional rendering*/}
       <ConditionalRendering></ConditionalRendering>
+
       {/*child to parent communication*/}
       <ParentComponent></ParentComponent>
+      
       {/*Binding Event Handlers*/}
       <EventBind></EventBind>
+     
       {/*Event Handlers*/}
       <FunctionClick></FunctionClick>
      <ClassClick></ClassClick>
       <Counter></Counter>
+     
       {/*props for functional component*/}
         <Greet name ="Zaid" heroName = "Superman"><p>This is a children props</p></Greet>
         <Greet name ="Suhaib" heroName = "Batman"><button>Action</button></Greet>
