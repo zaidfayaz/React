@@ -13,11 +13,15 @@ import EventBind from './components/Event_Bind'
 import ParentComponent from './components/ParentComponent'
 import ConditionalRendering from './components/ConditionalRendering'
 import ListRendering from './components/ListRendering'
+import StyleSheets from './components/StyleSheets'
 
 function App() {
   return (
     <>
       <div className='App'> 
+
+      {/* Styling Sheets*/}
+      <StyleSheets></StyleSheets>
       {/*List rendering*/}
       <ListRendering></ListRendering>
 

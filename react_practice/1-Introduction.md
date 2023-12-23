@@ -144,6 +144,11 @@ this keyword is undefined in the event handler and that is the reason event bind
 2- The list is a static list will not change
 3- The list will never be reordered or filtered
     
+          Styling React Components
+    1) CSS Stylesheets
+    2) Inline Styling
+    3) CSS Modules
+    4) CSS in JS libraries
 
 
 
