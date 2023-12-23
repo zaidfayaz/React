@@ -14,6 +14,9 @@ import ParentComponent from './components/ParentComponent'
 import ConditionalRendering from './components/ConditionalRendering'
 import ListRendering from './components/ListRendering'
 import StyleSheets from './components/StyleSheets'
+import InlineStyling from './components/InlineStyling'
+import './appStyles.css'
+import styles from './appStyles.module.css'
 
 function App() {
   return (
@@ -21,7 +24,11 @@ function App() {
       <div className='App'> 
 
       {/* Styling Sheets*/}
+      <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>Success</h1>
+      <InlineStyling></InlineStyling>
       <StyleSheets></StyleSheets>
+
       {/*List rendering*/}
       <ListRendering></ListRendering>
 
