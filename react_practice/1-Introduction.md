@@ -126,6 +126,12 @@ This state is used to store and manage data within the component.
 
            Click Handler/Event Binding
 this keyword is undefined in the event handler and that is the reason event binding is necessary in class components
+
+      Conditional Rendering
+1) if/else
+2) Element variables
+3) Ternary conditional operator
+4) Short circuit operator
     
 
 
