@@ -132,6 +132,17 @@ this keyword is undefined in the event handler and that is the reason event bind
 2) Element variables
 3) Ternary conditional operator
 4) Short circuit operator (if its true returns the statement otherise will not return anytthing .its used in specific cases only ex in  conditional rednedering componenet)
+
+           Lists and Keys
+- A key is a special String attribute we need to include when creating lists of elements
+- Keys give the elements a stable identity
+- Keys help React identify which item have changed , are added, or removed
+- Helps in efficient update of the user interface
+
+            When to use index As key
+1- The items in your list ddo not have a unique ID
+2- The list is a static list will not change
+3- The list will never be reordered or filtered
     
 
 

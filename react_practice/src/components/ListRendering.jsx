@@ -1,7 +1,8 @@
 import React from 'react'
+import PersonKey from './PersonKey'
 
 function ListRendering() {
-   // const names = ['Zaid', 'Iqu', 'Faizan']
+    
     const persons = [{
         id: 1,
         name: 'Zaid',
@@ -14,14 +15,21 @@ function ListRendering() {
         age: 28,
         skill: 'React',
     },
-    { 
+    {
         id: 3,
         name: 'Haseeb',
         age: 31,
         skill: 'Fullstack',
     }]
-    const personList = persons.map(person => <h2>My name is {person.name}. I am {person.age} years old. I know {person.skill}</h2>)
-    return <div> {personList} </div>
+    const personList = persons.map(person => <PersonKey key={person.id} person={person}/> )
+    const names = ['Zaid', 'Iqu', 'Faizan', 'Zaid'];
+    //rendering the index as a key
+    const nameList = names.map((name, index) => <h2 key = {index}> {index} {name} </h2>)
+    return <div>
+        <div>{personList}</div>
+        <div>{nameList}</div>
+    </div>
 }
 
 export default ListRendering
+
