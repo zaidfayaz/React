@@ -152,6 +152,20 @@ this keyword is undefined in the event handler and that is the reason event bind
 
             Controlled Component
 Such from elements whose values is controlled by react is called from controlle component
+  
+
+       Lifecycle methods
+- Mounting : is called when an instance of a component is being created and inserted into the DOM
+    The methods in Mounting : constructor, static getDerivedStateFromProps, render and componentDidMount
+
+- Updating : is called when a component is beiing re-rendered as a result of changes to either its props or state
+    The methods in updating : static getderivedStateFromProps, shoulComponentUpdate, render, getSnapshotBeforeUpdate and componentDidUpdate
+
+- Unmounting : is called when a component is being removed from the DOM
+     The methods in unmounting : componentWillMount
+
+- Error handling : when there is an error during rendering, in a lifecycle method, or iin the construcor of any child component
+    The methods in Error handling : static getDerivedStateFromError and componentDidCatch
 
 
 
