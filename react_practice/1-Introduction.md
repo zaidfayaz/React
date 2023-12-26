@@ -154,7 +154,7 @@ this keyword is undefined in the event handler and that is the reason event bind
 Such from elements whose values is controlled by react is called from controlle component
   
 
-       Lifecycle methods
+           Lifecycle methods
 - Mounting : is called when an instance of a component is being created and inserted into the DOM
     The methods in Mounting : constructor, static getDerivedStateFromProps, render and componentDidMount
 
