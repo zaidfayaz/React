@@ -150,6 +150,9 @@ this keyword is undefined in the event handler and that is the reason event bind
     3) CSS Modules
     4) CSS in JS libraries
 
+            Controlled Component
+Such from elements whose values is controlled by react is called from controlle component
+
 
 
 

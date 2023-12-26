@@ -17,11 +17,15 @@ import StyleSheets from './components/StyleSheets'
 import InlineStyling from './components/InlineStyling'
 import './appStyles.css'
 import styles from './appStyles.module.css'
+import Form from './components/Form'
 
 function App() {
   return (
     <>
       <div className='App'> 
+
+      {/* Form Component*/}
+      <Form></Form>
 
       {/* Styling Sheets*/}
       <h1 className='error'>Error</h1>
