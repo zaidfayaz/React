@@ -18,11 +18,15 @@ import InlineStyling from './components/InlineStyling'
 import './appStyles.css'
 import styles from './appStyles.module.css'
 import Form from './components/Form'
+import LifecycleMounting from './components/LifecycleMounting'
 
 function App() {
   return (
     <>
       <div className='App'> 
+
+      {/* Mounting Life cycle*/}
+      <LifecycleMounting></LifecycleMounting>
 
       {/* Form Component*/}
       <Form></Form>

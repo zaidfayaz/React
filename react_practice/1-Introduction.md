@@ -178,8 +178,10 @@ Such from elements whose values is controlled by react is called from controlle 
  3) redner() : only required method in a class componennt
  - read  props & state and return jsx
  - Dont change state or interact with DOM or make ajax calls
+ - children components lifecycle methods are also executed
 
- 
+ 4)  componentDidMount() : its only called once in the whole lifecycle of a given component and it is invoked immediately after a component and all its children components have been rendered in DOM
+ Cause side effect - ex intract with the DOM or perform any ajax call to load data
 
 
 
