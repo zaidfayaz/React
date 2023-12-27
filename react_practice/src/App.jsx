@@ -19,11 +19,15 @@ import './appStyles.css'
 import styles from './appStyles.module.css'
 import Form from './components/Form'
 import LifecycleMounting from './components/LifecycleMounting'
+import UpdateLifecycle from './components/UpdateLifecycle'
 
 function App() {
   return (
     <>
       <div className='App'> 
+
+      {/* update Life cycle*/}
+      <UpdateLifecycle></UpdateLifecycle>
 
       {/* Mounting Life cycle*/}
       <LifecycleMounting></LifecycleMounting>

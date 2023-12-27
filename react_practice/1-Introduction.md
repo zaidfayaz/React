@@ -183,6 +183,21 @@ Such from elements whose values is controlled by react is called from controlle 
  4)  componentDidMount() : its only called once in the whole lifecycle of a given component and it is invoked immediately after a component and all its children components have been rendered in DOM
  Cause side effect - ex intract with the DOM or perform any ajax call to load data
 
+        Updating Lifecycle methods
+1) static getDerivedStateFromProps(props,state) : its rarely used in updating methods
+Method is called everytime a component is re-rendered
+
+2) shoulComponentUpdate(props, state) : Dictates if the component should re render or not. it is used for performance optimization. it is also rarely used
+
+3) render () :mentioned above
+
+4) getSnapshotBeforeUpdate(prevProps, prevState): its also rarely used method
+  - called right before the changes from the virtual DOM are to be reflected in the DOM
+  - capture some information from the DOM
+  - Method will either return null or return a value. Returned value will be passed as the third parameter to the next method
+
+  5) componentDidUpdate(prevProps, prevState, snapshot) : called after the render is finished in the re-render cycles. its  is only called once in each re-render cycle
+
 
 
 
