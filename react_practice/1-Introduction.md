@@ -168,6 +168,20 @@ Such from elements whose values is controlled by react is called from controlle 
     The methods in Error handling : static getDerivedStateFromError and componentDidCatch
 
 
+            Mounting lifecycle
+ 1) constructor (props) : A special function that will get called whenever a new component is created. Its used for initialising state and binding the  event handlers to the class instance
+ - Dp not cause side effects ex dont malke HTTP protocols request
+ - Super(props) : Directly overwrites this.state it gives acces toi this.state
+
+ 2)  static getDerivedStateFromProps(props,state) : When the state of the component depends on changes in props over time . its a static method it doesnot have access to this keyword. we have to return the onject the represents the new state of the component. dont fetch data from end points
+
+ 3) redner() : only required method in a class componennt
+ - read  props & state and return jsx
+ - Dont change state or interact with DOM or make ajax calls
+
+ 
+
+
 
 
 >
