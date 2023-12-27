@@ -199,6 +199,14 @@ Method is called everytime a component is re-rendered
   5) componentDidUpdate(prevProps, prevState, snapshot) : called after the render is finished in the re-render cycles. its  is only called once in each re-render cycle
 
 
+              Unmounting Lifecycle Method
+1) componentWillUnmount(): Method is invoked immedaitely before a component is unmounted and destroyed. This method can be used for cancelling any network requests, removing event, handlers, cancelling any subscriptions and also invalidating timers. Do not call the setState method
+ 
+                   Error handling method
+
+1)static getDerivedStateFromError(error)
+2)componentDidCatch(error, info) : when there is an error either during rendering, in a lifecycle method  or in the  constructor of any child component
+
 
 
 >
