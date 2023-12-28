@@ -20,11 +20,15 @@ import styles from './appStyles.module.css'
 import Form from './components/Form'
 import LifecycleMounting from './components/LifecycleMounting'
 import UpdateLifecycle from './components/UpdateLifecycle'
+import Fragments from './components/Fragments'
 
 function App() {
   return (
     <>
       <div className='App'> 
+      
+       {/* update Life cycle*/}
+        <Fragments></Fragments>
 
       {/* update Life cycle*/}
       <UpdateLifecycle></UpdateLifecycle>
