@@ -206,7 +206,10 @@ Method is called everytime a component is re-rendered
 
 1)static getDerivedStateFromError(error)
 2)componentDidCatch(error, info) : when there is an error either during rendering, in a lifecycle method  or in the  constructor of any child component
+  
+                            Fragments
 
+​ React Fragment is a feature in React that allows you to return multiple elements from a React component by allowing you to group a list of children without adding extra nodes to the DOM.syntax <React.Fragment></React.Fragment>. another way is empty tags (<></>) but the limitation for this is that we cannot pass key attribute
 
 
 >
