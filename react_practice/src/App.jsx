@@ -21,11 +21,15 @@ import Form from './components/Form'
 import LifecycleMounting from './components/LifecycleMounting'
 import UpdateLifecycle from './components/UpdateLifecycle'
 import Fragments from './components/Fragments'
+import FragmentsTable from './components/FragmentsTable'
 
 function App() {
   return (
     <>
       <div className='App'> 
+
+      {/* Fragments Table*/}
+      <FragmentsTable></FragmentsTable>
       
        {/* update Life cycle*/}
         <Fragments></Fragments>
