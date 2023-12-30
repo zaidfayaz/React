@@ -22,11 +22,15 @@ import LifecycleMounting from './components/LifecycleMounting'
 import UpdateLifecycle from './components/UpdateLifecycle'
 import Fragments from './components/Fragments'
 import FragmentsTable from './components/FragmentsTable'
+import PureComponent from '../public/PureComponent'
 
 function App() {
   return (
     <>
       <div className='App'> 
+
+      {/* Pure Component*/}
+      <PureComponent></PureComponent>
 
       {/* Fragments Table*/}
       <FragmentsTable></FragmentsTable>
