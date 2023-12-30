@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { PureComponent, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -22,7 +22,8 @@ import LifecycleMounting from './components/LifecycleMounting'
 import UpdateLifecycle from './components/UpdateLifecycle'
 import Fragments from './components/Fragments'
 import FragmentsTable from './components/FragmentsTable'
-import PureComponents from '../public/PureComponent'
+import PureComp from './components/PureComp'
+import ParentexComp from './components/ParentexComp'
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
       <div className='App'> 
 
       {/* Pure Component*/}
-      <PureComponents></PureComponents>
+      <ParentexComp/>
 
       {/* Fragments Table*/}
       <FragmentsTable></FragmentsTable>
