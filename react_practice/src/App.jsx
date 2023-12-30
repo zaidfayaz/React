@@ -22,7 +22,7 @@ import LifecycleMounting from './components/LifecycleMounting'
 import UpdateLifecycle from './components/UpdateLifecycle'
 import Fragments from './components/Fragments'
 import FragmentsTable from './components/FragmentsTable'
-import PureComponent from '../public/PureComponent'
+import PureComponents from '../public/PureComponent'
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
       <div className='App'> 
 
       {/* Pure Component*/}
-      <PureComponent></PureComponent>
+      <PureComponents></PureComponents>
 
       {/* Fragments Table*/}
       <FragmentsTable></FragmentsTable>
