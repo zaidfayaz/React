@@ -211,5 +211,34 @@ Method is called everytime a component is re-rendered
 
 ​ React Fragment is a feature in React that allows you to return multiple elements from a React component by allowing you to group a list of children without adding extra nodes to the DOM.syntax <React.Fragment></React.Fragment>. Another way is empty tags (<></>) but the limitation for this is that we cannot pass key attribute
 
+                 Regular Component vs Pure Component 
+
+1) A regular component does not implement the shouldComponentUpdate method. It always returns true by default
+- A pure component on the other hand implements the shouldComponentUpdate method with a shallow props and state comparison.
+-  pure components can be used to avoid unecessary rendors and give a performance boost
+- Never mutate the state.Always return a new object that reflects the new state
+
+                    Shallow Comarison (SC)
+
+    we will study this with respect to
+1) Primitive Types : a (sc) b returns true if a and b have the same value and are of the same type 
+Ex. string 'zaid' (SC) string 'zaid' returns true
+
+2) Complex Types : a (SC) returns if a and b reference the exact same object
+Ex.
+var a =[1,2,3];
+var b = [1,2,3]
+var c = a;
+
+console.log(a === b); // false
+console.log(a === c); // true
+
+var a ={ x : 1, y : 2};
+var b = {x : 1, y: 2}
+var c = a;
+
+console.log(a === b); // false
+console.log(a === c); // true
+
 
 >
