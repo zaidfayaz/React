@@ -114,7 +114,7 @@ const Hello = () =>{
   - When you have to update the state based on the previous state value, pass in a function as an argument instead of the regular object.
 
 
-            // explaining  counter component (constructor)
+            Explaining  counter component (constructor)
   In React, the constructor method is used for initializing state, binding event handlers, or performing any other setup required for the component. However, starting from React 16.8, you can use the useState hook to manage state in functional components without using a constructor.
 
 Here's what the code snippet does:
