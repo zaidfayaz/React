@@ -221,7 +221,7 @@ Method is called everytime a component is re-rendered
 
                     Shallow Comarison (SC)
 
-    we will study this with respect to
+    we will study this with respect to the
 1) Primitive Types : a (sc) b returns true if a and b have the same value and are of the same type 
 Ex. string 'zaid' (SC) string 'zaid' returns true
 
