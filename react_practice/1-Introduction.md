@@ -108,7 +108,7 @@ const Hello = () =>{
    useState Hook in -> Functional component
    this.state in -> Class Component
 
-                     -setState :
+                     setState :
  Always make use of setSate and never modify the state directly
   -code has to be executed after the state has been updated? Place that code in the call back function which is the second argument to the setState method (first argument is object. ex in counter component)
   - When you have to update the state based on the previous state value, pass in a function as an argument instead of the regular object.
@@ -205,7 +205,7 @@ Method is called everytime a component is re-rendered
                    Error handling method
 
 1)static getDerivedStateFromError(error)
-2)componentDidCatch(error, info) : when there is an error either during rendering, in a lifecycle method  or in the  constructor of any child component
+2)componentDidCatch(error,info) : when there is an error either during rendering, in a lifecycle method  or in the  constructor of any child component
   
                              Fragments
 
@@ -219,7 +219,7 @@ Method is called everytime a component is re-rendered
 - Never mutate the state.Always return a new object that reflects the new state
 - Pure components always works with class based components
 
-                    Shallow Comarison (SC)
+                    Shallow Comparison (SC)
 
     we will study this with respect to the
 1) Primitive Types : a (sc) b returns true if a and b have the same value and are of the same type 
