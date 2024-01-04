@@ -24,11 +24,15 @@ import Fragments from './components/Fragments'
 import FragmentsTable from './components/FragmentsTable'
 import PureComp from './components/PureComp'
 import ParentexComp from './components/ParentexComp'
+import RefsDemo from './components/RefsDemo'
 
 function App() {
   return (
     <>
       <div className='App'> 
+
+      {/* Refs*/}
+      <RefsDemo></RefsDemo>
 
       {/* Pure Component*/}
       <ParentexComp/>
