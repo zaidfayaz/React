@@ -27,12 +27,16 @@ import ParentexComp from './components/ParentexComp'
 import RefsDemo from './components/RefsDemo'
 import ClassRef from './components/ClassRef'
 import ParentClassRef from './components/ParentClassRef'
+import FRParentInput from './components/FRParentInput'
 
 function App() {
   return (
     <>
       <div className='App'>
-      
+
+        {/* FRInput (Forwading refs) and FRPartentInput ex*/}
+        <FRParentInput/>
+
         {/* Class Refs and parent class ref ex*/}
         <ParentClassRef></ParentClassRef>
         
