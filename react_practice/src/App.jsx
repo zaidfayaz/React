@@ -25,69 +25,74 @@ import FragmentsTable from './components/FragmentsTable'
 import PureComp from './components/PureComp'
 import ParentexComp from './components/ParentexComp'
 import RefsDemo from './components/RefsDemo'
+import ClassRef from './components/ClassRef'
+import ParentClassRef from './components/ParentClassRef'
 
 function App() {
   return (
     <>
-      <div className='App'> 
-
-      {/* Refs*/}
-      <RefsDemo></RefsDemo>
-
-      {/* Pure Component*/}
-      <ParentexComp/>
-
-      {/* Fragments Table*/}
-      <FragmentsTable></FragmentsTable>
+      <div className='App'>
       
-       {/* update Life cycle*/}
+        {/* Class Refs and parent class ref ex*/}
+        <ParentClassRef></ParentClassRef>
+        
+        {/* Refs*/}
+        <RefsDemo></RefsDemo>
+
+        {/* Pure Component*/}
+        <ParentexComp />
+
+        {/* Fragments Table*/}
+        <FragmentsTable></FragmentsTable>
+
+        {/* update Life cycle*/}
         <Fragments></Fragments>
 
-      {/* update Life cycle*/}
-      <UpdateLifecycle></UpdateLifecycle>
+        {/* update Life cycle*/}
+        <UpdateLifecycle></UpdateLifecycle>
 
-      {/* Mounting Life cycle*/}
-      <LifecycleMounting></LifecycleMounting>
+        {/* Mounting Life cycle*/}
+        <LifecycleMounting></LifecycleMounting>
 
-      {/* Form Component*/}
-      <Form></Form>
+        {/* Form Component*/}
+        <Form></Form>
 
-      {/* Styling Sheets*/}
-      <h1 className='error'>Error</h1>
-      <h1 className={styles.success}>Success</h1>
-      <InlineStyling></InlineStyling>
-      <StyleSheets></StyleSheets>
+        {/* Styling Sheets*/}
+        <h1 className='error'>Error</h1>
+        <h1 className={styles.success}>Success</h1>
+        <InlineStyling></InlineStyling>
+        <StyleSheets></StyleSheets>
 
-      {/*List rendering*/}
-      <ListRendering></ListRendering>
+        {/*List rendering*/}
+        <ListRendering></ListRendering>
 
-      {/*conditional rendering*/}
-      <ConditionalRendering></ConditionalRendering>
+        {/*conditional rendering*/}
+        <ConditionalRendering></ConditionalRendering>
 
-      {/*child to parent communication*/}
-      <ParentComponent></ParentComponent>
-      
-      {/*Binding Event Handlers*/}
-      <EventBind></EventBind>
-     
-      {/*Event Handlers*/}
-      <FunctionClick></FunctionClick>
-     <ClassClick></ClassClick>
-      <Counter></Counter>
-     
-      {/*props for functional component*/}
-        <Greet name ="Zaid" heroName = "Superman"><p>This is a children props</p></Greet>
-        <Greet name ="Suhaib" heroName = "Batman"><button>Action</button></Greet>
-        <Greet name ="Faizan" heroName = "Spiderman"></Greet>
+        {/*child to parent communication*/}
+        <ParentComponent></ParentComponent>
 
-      { /*props for class component*/}
-        <Welcome name ="Zaid" heroName = "Superman"></Welcome>
-        <Welcome name ="Suhaib" heroName = "Batman"></Welcome>
-        <Welcome name ="Faizan" heroName = "Spiderman"></Welcome>
+        {/*Binding Event Handlers*/}
+        <EventBind></EventBind>
+
+        {/*Event Handlers*/}
+        <FunctionClick></FunctionClick>
+        <ClassClick></ClassClick>
+        <Counter></Counter>
+
+        {/*props for functional component*/}
+        <Greet name="Zaid" heroName="Superman"><p>This is a children props</p></Greet>
+        <Greet name="Suhaib" heroName="Batman"><button>Action</button></Greet>
+        <Greet name="Faizan" heroName="Spiderman"></Greet>
+
+        { /*props for class component*/}
+        <Welcome name="Zaid" heroName="Superman"></Welcome>
+        <Welcome name="Suhaib" heroName="Batman"></Welcome>
+        <Welcome name="Faizan" heroName="Spiderman"></Welcome>
         <Jsx></Jsx>
         <Message></Message>
       </div>
-   
+
     </>
   )
 }
