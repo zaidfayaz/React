@@ -28,11 +28,15 @@ import RefsDemo from './components/RefsDemo'
 import ClassRef from './components/ClassRef'
 import ParentClassRef from './components/ParentClassRef'
 import FRParentInput from './components/FRParentInput'
+import PortalDemo from './components/PortalDemo'
 
 function App() {
   return (
     <>
       <div className='App'>
+
+      {/* Portals*/}
+      <PortalDemo></PortalDemo>
 
         {/* FRInput (Forwading refs) and FRPartentInput ex*/}
         <FRParentInput/>
