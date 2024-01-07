@@ -176,7 +176,7 @@ Such from elements whose values is controlled by react is called from controlle 
  2)  static getDerivedStateFromProps(props,state) : When the state of the component depends on changes in props over time . its a static method it doesnot have access to this keyword. we have to return the onject the represents the new state of the component. dont fetch data from end points
 
  3) render() : only required method in a class componennt
- - read  props & state and return jsx
+ - Read  props & state and return jsx
  - Dont change state or interact with DOM or make ajax calls
  - children components lifecycle methods are also executed
 
