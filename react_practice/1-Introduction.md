@@ -175,7 +175,7 @@ Such from elements whose values is controlled by react is called from controlle 
 
  2)  static getDerivedStateFromProps(props,state) : When the state of the component depends on changes in props over time . its a static method it doesnot have access to this keyword. we have to return the onject the represents the new state of the component. dont fetch data from end points
 
- 3) redner() : only required method in a class componennt
+ 3) render() : only required method in a class componennt
  - read  props & state and return jsx
  - Dont change state or interact with DOM or make ajax calls
  - children components lifecycle methods are also executed
@@ -260,6 +260,7 @@ React portals come up with a way to render children into a DOM node that occurs 
 So far we were having one DOM element in the HTML into which we were mounting our react application, i.e., the root element of our index.html in the public folder. Basically, we mount our App component onto our root element. It is almost a convention to have a div element with the id of root to be used as the root DOM element. If you take a look at the browser in the DOM tree every single React component in our application falls under the root element, i.e., inside this statement.
 
 React Portals provide us the ability to break out of this dom tree and render a component onto a dom node that is not under this root element. Doing so breaks the convention where a component needs to be rendered as a new element and follow a parent-child hierarchy. They are commonly used in modal dialog boxes, hovercards, loaders, and popup messages.
+
 Syntax:
 
 ReactDOM.createPortal(child, container)
