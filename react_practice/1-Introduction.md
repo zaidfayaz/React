@@ -178,7 +178,8 @@ Such from elements whose values is controlled by react is called from controlle 
  3) render() : only required method in a class componennt
  - Read  props & state and return jsx
  - Dont change state or interact with DOM or make ajax calls
- - Children components lifecycle methods are also executed
+ - C
+ hildren components lifecycle methods are also executed
 
  4)  componentDidMount() : its only called once in the whole lifecycle of a given component and it is invoked immediately after a component and all its children components have been rendered in DOM
  Cause side effect - ex intract with the DOM or perform any ajax call to load data
@@ -265,6 +266,11 @@ Syntax:
 
 ReactDOM.createPortal(child, container)
 Parameters: Here the first parameter is a child which can be a React element, string, or a fragment and the second parameter is a container which is the DOM node (or location) lying outside the DOM hierarchy of the parent component at which our portal is to be inserted.
+
+
+                Error Boundary
+
+A class component that implements either one or both of the lifecycle methods getDerivedStateFromError or componentDidCatch becomes the error boundary.
 
 
 >
