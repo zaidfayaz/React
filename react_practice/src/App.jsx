@@ -29,11 +29,17 @@ import ClassRef from './components/ClassRef'
 import ParentClassRef from './components/ParentClassRef'
 import FRParentInput from './components/FRParentInput'
 import PortalDemo from './components/PortalDemo'
+import HeroExErrorBoundary from './components/HeroExErrorBoundary'
 
 function App() {
   return (
     <>
       <div className='App'>
+
+      {/*Error Boundary*/}
+      <HeroExErrorBoundary heroName="Batman"></HeroExErrorBoundary>
+      <HeroExErrorBoundary heroName="Superman"></HeroExErrorBoundary>
+      <HeroExErrorBoundary heroName="Joker"></HeroExErrorBoundary>
 
       {/* Portals*/}
       <PortalDemo></PortalDemo>
