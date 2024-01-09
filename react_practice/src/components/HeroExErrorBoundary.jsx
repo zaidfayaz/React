@@ -6,7 +6,6 @@ function HeroExErrorBoundary({heroName}) {
     }
   return (
     <div>
-    hero
       {heroName}
     </div>
   )
