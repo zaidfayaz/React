@@ -30,6 +30,7 @@ import ParentClassRef from './components/ParentClassRef'
 import FRParentInput from './components/FRParentInput'
 import PortalDemo from './components/PortalDemo'
 import HeroExErrorBoundary from './components/HeroExErrorBoundary'
+import ErrorBoundary from './components/ErrorBoundary'
 
 function App() {
   return (
@@ -37,9 +38,11 @@ function App() {
       <div className='App'>
 
       {/*Error Boundary*/}
+      <ErrorBoundary>
       <HeroExErrorBoundary heroName="Batman"></HeroExErrorBoundary>
       <HeroExErrorBoundary heroName="Superman"></HeroExErrorBoundary>
       <HeroExErrorBoundary heroName="Joker"></HeroExErrorBoundary>
+      </ErrorBoundary>
 
       {/* Portals*/}
       <PortalDemo></PortalDemo>
