@@ -37,22 +37,26 @@ function App() {
     <>
       <div className='App'>
 
-      {/*Error Boundary*/}
-      <ErrorBoundary>
-      <HeroExErrorBoundary heroName="Batman"></HeroExErrorBoundary>
-      <HeroExErrorBoundary heroName="Superman"></HeroExErrorBoundary>
-      <HeroExErrorBoundary heroName="Joker"></HeroExErrorBoundary>
-      </ErrorBoundary>
+        {/*Error Boundary*/}
+        <ErrorBoundary>
+          <HeroExErrorBoundary heroName="Batman"></HeroExErrorBoundary>
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <HeroExErrorBoundary heroName="Superman"></HeroExErrorBoundary>
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <HeroExErrorBoundary heroName="Joker"></HeroExErrorBoundary>
+        </ErrorBoundary>
 
-      {/* Portals*/}
-      <PortalDemo></PortalDemo>
+        {/* Portals*/}
+        <PortalDemo></PortalDemo>
 
         {/* FRInput (Forwading refs) and FRPartentInput ex*/}
-        <FRParentInput/>
+        <FRParentInput />
 
         {/* Class Refs and parent class ref ex*/}
         <ParentClassRef></ParentClassRef>
-        
+
         {/* Refs*/}
         <RefsDemo></RefsDemo>
 
