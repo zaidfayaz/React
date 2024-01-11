@@ -48,7 +48,7 @@ function App() {
           <HeroExErrorBoundary heroName="Joker"></HeroExErrorBoundary>
         </ErrorBoundary>
         <ErrorBoundary>
-        <HeroExErrorBoundary heroName="Zaido"></HeroExErrorBoundary>
+        <HeroExErrorBoundary heroName="Zaid"></HeroExErrorBoundary>
       </ErrorBoundary>
         {/* Portals*/}
         <PortalDemo></PortalDemo>
