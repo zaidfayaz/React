@@ -31,11 +31,15 @@ import FRParentInput from './components/FRParentInput'
 import PortalDemo from './components/PortalDemo'
 import HeroExErrorBoundary from './components/HeroExErrorBoundary'
 import ErrorBoundary from './components/ErrorBoundary'
+import HigerOrderClickCounter from './components/HigerOrderClickCounter'
 
 function App() {
   return (
     <>
       <div className='App'>
+
+      {/*Higher order */}
+      <HigerOrderClickCounter></HigerOrderClickCounter>
 
         {/*Error Boundary*/}
         <ErrorBoundary>
