@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import UpdatedComponent from './WithCounterHigherOrder'
 
  class HigherOrderClickHover extends Component {
     constructor(props) {
@@ -14,9 +15,9 @@ import React, { Component } from 'react'
         })
     }
   render() {
-        const {count}= this.state
-        return <h1 onMouseOver={this.incrementCount}>Hovered {count} times</h1>
+        const {count, incrementCount}= this.props
+        return <h1 onMouseOver={incrementCount}>Hovered {count} times</h1>
   }
 }
 
-export default HigherOrderClickHover
+export default UpdatedComponent(HigherOrderClickHover)

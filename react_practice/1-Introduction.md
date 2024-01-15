@@ -278,5 +278,12 @@ The static getDerivedStateFromError method is used to render a fallback UI after
 - The placement of the error boundary also matters as it controls of the entire app should have the fall-back UI Or just the component causing the problem
 - It provides a way to gracefully handle error in application code 
 
+            Higher Order Component - HOC
+A pattern where a function takes a component as an argument and returns a new component
 
+ex
+const NewComponent = higherOrderComponent( orginal component)
+const EnhanceComponent = higherOrderComponent( orginal component)
+
+const ironMan = withSuit(TonyStark)
 >
