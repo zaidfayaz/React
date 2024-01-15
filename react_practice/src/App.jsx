@@ -32,6 +32,7 @@ import PortalDemo from './components/PortalDemo'
 import HeroExErrorBoundary from './components/HeroExErrorBoundary'
 import ErrorBoundary from './components/ErrorBoundary'
 import HigerOrderClickCounter from './components/HigerOrderClickCounter'
+import HigherOrderClickHover from './components/HigherOrderClickHover'
 
 function App() {
   return (
@@ -39,7 +40,8 @@ function App() {
       <div className='App'>
 
       {/*Higher order */}
-      <HigerOrderClickCounter></HigerOrderClickCounter>
+      <HigherOrderClickHover/>
+      <HigerOrderClickCounter/>
 
         {/*Error Boundary*/}
         <ErrorBoundary>
