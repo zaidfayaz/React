@@ -40,7 +40,7 @@ function App() {
       <div className='App'>
 
       {/*Higher order */}
-      <HigherOrderClickHover/>
+      <HigherOrderClickHover name ="Zaid Fayaz"/>
       <HigerOrderClickCounter/>
 
         {/*Error Boundary*/}

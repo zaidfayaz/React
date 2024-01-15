@@ -16,7 +16,7 @@ import UpdatedComponent from './WithCounterHigherOrder'
     }
   render() {
         const {count, incrementCount}= this.props
-        return <h1 onMouseOver={incrementCount}>Hovered {count} times</h1>
+        return <h1 onMouseOver={incrementCount}>{this.props.name} Hovered {count} times</h1>
   }
 }
 
