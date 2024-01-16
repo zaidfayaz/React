@@ -34,13 +34,15 @@ import ErrorBoundary from './components/ErrorBoundary'
 import HigerOrderClickCounter from './components/HigerOrderClickCounter'
 import HigherOrderClickHover from './components/HigherOrderClickHover'
 import ClickCounterRenderProps from './components/ClickCounterRenderProps'
+import HoverCounterRenderProps from './components/HoverCounterRenderProps'
 
 function App() {
   return (
     <>
       <div className='App'>
 
-      {/*Higher order */}
+      {/*Render Props */}
+      <HoverCounterRenderProps/>
       <ClickCounterRenderProps/>
 
       {/*Higher order */}
