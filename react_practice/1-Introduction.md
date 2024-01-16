@@ -210,7 +210,7 @@ Method is called everytime a component is re-rendered
   
                              Fragments
 
-​ React Fragment is a feature in React that allows you to return multiple elements from a React component by allowing you to group a list of children without adding extra nodes to the DOM.syntax <React.Fragment></React.Fragment>. Another way is empty tags (<></>) but the limitation for this is that we cannot pass key attribute
+​ React Fragment is a feature in React that allows you to return multiple elements from a React component by allowing you to group a list of children without adding extra nodes to the DOM.syntax <React.Fragment></React.Fragment>. Another way iz empty tags (<></>) but the limitation for this is that we cannot pass key attribute
 
                  Regular Component vs Pure Component 
 
