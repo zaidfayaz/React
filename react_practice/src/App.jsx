@@ -33,11 +33,15 @@ import HeroExErrorBoundary from './components/HeroExErrorBoundary'
 import ErrorBoundary from './components/ErrorBoundary'
 import HigerOrderClickCounter from './components/HigerOrderClickCounter'
 import HigherOrderClickHover from './components/HigherOrderClickHover'
+import ClickCounterRenderProps from './components/ClickCounterRenderProps'
 
 function App() {
   return (
     <>
       <div className='App'>
+
+      {/*Higher order */}
+      <ClickCounterRenderProps/>
 
       {/*Higher order */}
       <HigherOrderClickHover name ="Zaid Fayaz"/>
