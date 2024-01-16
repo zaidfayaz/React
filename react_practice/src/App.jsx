@@ -35,19 +35,30 @@ import HigerOrderClickCounter from './components/HigerOrderClickCounter'
 import HigherOrderClickHover from './components/HigherOrderClickHover'
 import ClickCounterRenderProps from './components/ClickCounterRenderProps'
 import HoverCounterRenderProps from './components/HoverCounterRenderProps'
+import UserRenderProps from './components/UserRenderProps'
+import CounterrRender from './components/CounterRender'
 
 function App() {
   return (
     <>
       <div className='App'>
 
-      {/*Render Props */}
-      <HoverCounterRenderProps/>
-      <ClickCounterRenderProps/>
+        {/*Render Props */}
+        <CounterrRender
+          render={(count, incrementCount) => (
+            <ClickCounterRenderProps count={count} incrementCount={incrementCount} />)} />
 
-      {/*Higher order */}
-      <HigherOrderClickHover name ="Zaid Fayaz"/>
-      <HigerOrderClickCounter/>
+        <CounterrRender
+          render={(count, incrementCount) => (
+            <HoverCounterRenderProps count={count} incrementCount={incrementCount} />)} />
+
+        {/*<UserRenderProps render = {(isLoggedIn)=>isLoggedIn ? "Zaid Fayaz" : "Guest"}/>
+      <HoverCounterRenderProps/>
+      <ClickCounterRenderProps/> */}
+
+        {/*Higher order */}
+        <HigherOrderClickHover name="Zaid Fayaz" />
+        <HigerOrderClickCounter />
 
         {/*Error Boundary*/}
         <ErrorBoundary>

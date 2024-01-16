@@ -286,4 +286,7 @@ const NewComponent = higherOrderComponent( orginal component)
 const EnhanceComponent = higherOrderComponent( orginal component)
 
 const ironMan = withSuit(TonyStark)
+
+                    Render Props
+The term 'Render Props' refers to a technique for *sharing code* between React components using a *prop whose value is a function*
 >
