@@ -265,7 +265,7 @@ React Portals provide us the ability to break out of this dom tree and render a 
 Syntax:
 
 ReactDOM.createPortal(child, container)
-Parameters: Here the first parameter is a child which can be a React element, string, or a fragment and the second parameter iz a container which is the DOM node (or location) lying outside the DOM hierarchy of the parent component at which our portal iz to be inserted.
+Parameters: Here the first parameter is a child which can be a React element, string, or a fragment and the second parameter is a container which is the DOM node (or location) lying outside the DOM hierarchy of the parent component at which our portal is to be inserted.
 
 
                 Error Boundary
