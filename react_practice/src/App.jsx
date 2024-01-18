@@ -37,11 +37,16 @@ import ClickCounterRenderProps from './components/ClickCounterRenderProps'
 import HoverCounterRenderProps from './components/HoverCounterRenderProps'
 import UserRenderProps from './components/UserRenderProps'
 import CounterrRender from './components/CounterRender'
+import ComponentC from './components/ComponentC'
 
 function App() {
   return (
     <>
       <div className='App'>
+         
+      {/*Context */}
+      <ComponentC/>
+
 
         {/*Render Props */}
         <CounterrRender
