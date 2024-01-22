@@ -227,7 +227,7 @@ Method is called everytime a component is re-rendered
 Ex. string 'zaid' (SC) string 'zaid' returns true
 
 2) Complex Types : a (SC) returns if a and b reference the exact same object
-Ex.
+Ex. :-
 var a =[1,2,3];
 var b = [1,2,3]
 var c = a;
