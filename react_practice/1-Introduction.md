@@ -226,7 +226,7 @@ Method is called everytime a component is re-rendered
 1) Primitive Types : a (sc) b returns true if a and b have the same value and are of the same type 
 Ex. string 'zaid' (SC) string 'zaid' returns true
 
-2) Complex Types : a (SC) returns if a and b reference the exact same object...
+2) Complex Types : a (SC) returns if a and b reference the exact same object......
 Ex. :-
 var a =[1,2,3];
 var b = [1,2,3]
