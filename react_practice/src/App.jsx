@@ -140,6 +140,7 @@ function App() {
         <Welcome name="Zaid" heroName="Superman"></Welcome>
         <Welcome name="Suhaib" heroName="Batman"></Welcome>
         <Welcome name="Faizan" heroName="Spiderman"></Welcome>
+        <Welcome name="Faizan" heroName="Spiderman"></Welcome>
         <Jsx></Jsx>
         <Message></Message>
       </div>
