@@ -206,7 +206,7 @@ Method is called everytime a component is re-rendered
                    Error handling method
 
 1)static getDerivedStateFromError(error)
-2)componentDidCatch(error,info) : when there is an error either during rendering, in a lifecycle method  or in the  constructor of any child component
+2)componentDidCatch(error,info) : when there is an error either during rendering, in a lifecycle method  or in the  constructor of any child component.
   
                              Fragments
 
