@@ -201,7 +201,7 @@ Method is called everytime a component is re-rendered
 
 
               Unmounting Lifecycle Method
-1) componentWillUnmount(): Method is invoked immedaitely before a component is unmounted and destroyed. This method can be used for cancelling any network requests, removing event, handlers, cancelling any subscriptions and also invalidating timers. Do not call the setState method
+1) componentWillUnmount(): Method is invoked immedaitely before a component is unmounted and destroyed. This method can be used for cancelling any network requests, removing event, handlers, cancelling any subscriptions and also invalidating timers. Do not call the setState method.
  
                    Error handling method
 
