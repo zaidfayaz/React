@@ -197,7 +197,7 @@ Method is called everytime a component is re-rendered
   - capture some information from the DOM
   - Method will either return null or return a value. Returned value will be passed as the third parameter to the next method
 
-  5) componentDidUpdate(prevProps, prevState, snapshot) : called after the render is finished in the re-render cycles. its  is only called once in each re-render cycle
+  5) componentDidUpdate(prevProps, prevState, snapshot) : called after the render is finished in the re-render cycles. its  is only called once in each re-render cycle.
 
 
               Unmounting Lifecycle Method
