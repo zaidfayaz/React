@@ -214,7 +214,7 @@ Method is called everytime a component is re-rendered
 
                  Regular Component vs Pure Component 
 
-1) A regular component does not implement the shouldComponentUpdate method. It always returns true by default
+1) A regular component does not implement the shouldComponentUpdate method. It always returns true by default:
 - A pure component on the other hand implements the shouldComponentUpdate method with a shallow props and state comparison.
 -  pure components can be used to avoid unecessary rendors and give a performance boost
 - Never mutate the state.Always return a new object that reflects the new state
