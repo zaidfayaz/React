@@ -188,7 +188,7 @@ Such from elements whose values is controlled by react is called from controlle 
 1) static getDerivedStateFromProps(props,state) : its rarely used in updating methods
 Method is called everytime a component is re-rendered
 
-2) shoulComponentUpdate(props, state) : Dictates if the component should re render or not. it is used for performance optimization. it is also rarely used
+2) shoulComponentUpdate(props, state) : Dictates if the component should re render or not. it is used for performance optimization. it is also rarely used:
 
 3) render () :mentioned above
 
