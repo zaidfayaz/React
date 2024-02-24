@@ -190,7 +190,7 @@ Method is called everytime a component is re-rendered
 
 2) shoulComponentUpdate(props, state) : Dictates if the component should re render or not. it is used for performance optimization. it is also rarely used:
 
-3) render () :mentioned above
+3) render () :mentioned above.
 
 4) getSnapshotBeforeUpdate(prevProps, prevState): its also rarely used method
   - called right before the changes from the virtual DOM are to be reflected in the DOM
