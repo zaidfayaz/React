@@ -193,7 +193,7 @@ Method is called everytime a component is re-rendered
 3) render () :mentioned above.
 
 4) getSnapshotBeforeUpdate(prevProps, prevState): its also rarely used method:
-  - called right before the changes from the virtual DOM are to be reflected in the DOM
+  - called right before the changes from the virtual DOM are to be reflected in the DOM.
   - capture some information from the DOM
   - Method will either return null or return a value. Returned value will be passed as the third parameter to the next method.
 
