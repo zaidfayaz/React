@@ -233,7 +233,7 @@ var b = [1,2,3]
 var c = a;
 
 console.log(a === b); // false
-console.log(a === c); // true
+console.log(a === c); // true,
 
 var a ={ x : 1, y : 2};
 var b = {x : 1, y: 2}
