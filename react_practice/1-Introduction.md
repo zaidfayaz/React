@@ -182,7 +182,7 @@ Such from elements whose values is controlled by react is called from controlle 
  hildren components lifecycle methods are also executed
 
  4)  componentDidMount() : its only called once in the whole lifecycle of a given component and it is invoked immediately after a component and all its children components have been rendered in DOM
- Cause side effect - ex intract with the DOM or perform any ajax call to load data
+ Cause side effect - ex intract with the DOM or perform any ajax call to load data.
 
         Updating Lifecycle methods
 1) static getDerivedStateFromProps(props,state) : its rarely used in updating methods.
