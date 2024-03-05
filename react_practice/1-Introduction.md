@@ -218,7 +218,7 @@ Method is called everytime a component is re-rendered
 - A pure component on the other hand implements the shouldComponentUpdate method with a shallow props and state comparison.
 -  pure components can be used to avoid unecessary rendors and give a performance boost.
 - Never mutate the state.Always return a new object that reflects the new state.
-- Pure components always works with class based components
+- Pure components always works with class based components.
 
                     Shallow Comparison (SC)
 
