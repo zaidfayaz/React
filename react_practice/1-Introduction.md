@@ -283,7 +283,7 @@ A pattern where a function takes a component as an argument and returns a new co
 
 ex
 const NewComponent = higherOrderComponent( orginal component)
-const EnhanceComponent = higherOrderComponent( orginal component)
+const EnhanceComponent = higherOrderComponent( orginal component).
 
 const ironMan = withSuit(TonyStark)
 
