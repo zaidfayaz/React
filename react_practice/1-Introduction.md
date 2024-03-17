@@ -294,6 +294,6 @@ The term 'Render Props' refers to a technique for *sharing code* between React C
 Context provides a way to pass data through the component tree without having to pass props down manually at every level
 Creating context has 3 steps :-
 1- Create Context.
-2- Provide a context value
+2- Provide a context value.
 3- Consume the conytext value in the  necessary component
 >
