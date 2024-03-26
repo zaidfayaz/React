@@ -271,7 +271,7 @@ Parameters: Here the first parameter is a child which can be a React element, st
                 Error Boundary
 
 A class component that implements either one or both of the lifecycle methods getDerivedStateFromError or componentDidCatch becomes the error boundary.
-The static getDerivedStateFromError method is used to render a fallback UI after an error is thrown and the componentDidCatch method is used to log the error information
+The static getDerivedStateFromError method is used to render a fallback UI after an error is thrown and the componentDidCatch method is used to log the error information,
 
 - Error boundaries are react components that catch JS error in their child component tree, log those errors and display a fall-back UI.
 - A class component becomes an error boundary by defining either or both of getDerivedStateFromError and componentDidCatch lifecycle methods
