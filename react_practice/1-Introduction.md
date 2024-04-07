@@ -254,7 +254,7 @@ Refs can be used in the following cases:
 - When integrating with third-party DOM libraries.
 - It can also use as in callbacks.
 
-                            React Portals
+                            React Portals:
 
 React portals come up with a way to render children into a DOM node that occurs outside the DOM hierarchy of the parent component. The portals were introduced in React 16.0 version.
 
