@@ -246,7 +246,7 @@ console.log(a === c); // true
 Refs are a function provided by React to access the DOM element and the React element that you might have created on your own. They are used in cases where we want to change the value of a child component, without making use of props and all. They have wide functionality as we can use callbacks with them. 
 Refs is the shorthand used for references in React. It is similar to keys in React. It is an attribute which makes it possible to store a reference to particular DOM nodes or React elements. It provides a way to access React DOM nodes or React elements and how to interact with it. It is used when we want to change the value of a child component, without making the use of props.
 
-                            When to Use Refs
+                            When to Use Refs:
 Refs can be used in the following cases:
 
 - When we need DOM measurements such as managing focus, text selection, or media playback.
