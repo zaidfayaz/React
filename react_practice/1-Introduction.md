@@ -239,7 +239,7 @@ var a ={ x : 1, y : 2};
 var b = {x : 1, y: 2}
 var c = a;
 
-console.log(a === b); // false
+console.log(a === b); // false.
 console.log(a === c); // true
 
                     What are React Refs ?
