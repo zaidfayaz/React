@@ -240,7 +240,7 @@ var b = {x : 1, y: 2}
 var c = a;
 
 console.log(a === b); // false.
-console.log(a === c); // true
+console.log(a === c); // true .
 
                     What are React Refs ?
 Refs are a function provided by React to access the DOM element and the React element that you might have created on your own. They are used in cases where we want to change the value of a child component, without making use of props and all. They have wide functionality as we can use callbacks with them. 
